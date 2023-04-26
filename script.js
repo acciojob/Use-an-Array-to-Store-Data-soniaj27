@@ -1,8 +1,3 @@
- const express = require('express');
-const path = require('path');
+	let yourArray = [1, "two", true, null, 5.5];
+     			console.log(yourArray);
 
-const app = express();
-
-app.use(express.static(__dirname))
-
-module.exports = app;
